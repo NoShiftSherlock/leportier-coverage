@@ -7,8 +7,8 @@ Live: https://noshiftsherlock.github.io/leportier-coverage/
 
 Built with the `alcohol-coverage` skill on 2026-10-24:
 - Retailer network: `network_coverage.py` (ReserveBar/AccelPay retailer catalog, active
-  listings matching LE PORTIER / Shay VSOP by brand or name, Gopuff excluded): 121 of 361
-  network retailers. Cross-checked with `retailer_inventory_check.py` (Liquor Barn sheet: 8 in
+  listings matching LE PORTIER / Shay VSOP by brand or name, Gopuff excluded): 118 of 357
+  network retailers, after removing Vista Wine & Spirits, Longhorn Wine and Spirits and Mashbill Wine & Spirits (Bottle Nexus retailers) per Josh. Cross-checked with `retailer_inventory_check.py` (Liquor Barn sheet: 8 in
   stock; Main Street sheet: listed, 0 stock, already counted as no listing).
 - Gopuff: BigQuery snapshot (stale, 2026-06-17) showed 0. A live brand-facet check of all 173
   spirits-licensed (BWS) Gopuff locations found "Le Portier Shay" at 7 (Chandler, Glendale,
